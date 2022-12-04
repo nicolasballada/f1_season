@@ -1,10 +1,10 @@
 {
-  "name": "@nicolasballada/vue3-boilerplate",
-  "description": "Quick boilerplate for your next project, containing - Vite, Vuex, Vue Router & Tailwind CSS. Created created by @richardevcom <hello@richardev.com> (https://richardev.com), modified by me.",
-  "version": "1.0.8",
+  "name": "@nicolasballada/f1_season",
+  "description": "F1 season tracker.",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicolasballada/vue-boilerplate"
+    "url": "https://github.com/nicolasballada/f1_season"
   },
   "scripts": {
     "dev": "vite",
@@ -22,6 +22,7 @@
     "@vitejs/plugin-vue": "^3.1.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "autoprefixer": "^10.4.11",
+    "chart.js": "^4.0.1",
     "cssnano": "^5.1.13",
     "eslint": "^8.23.1",
     "eslint-plugin-vue": "^9.5.1",
