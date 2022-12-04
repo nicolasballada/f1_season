@@ -28,7 +28,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = `Vue Boilerplate - ${to.name}`;
+  document.title = `F1 Season Tracker - ${to.name}`;
   next();
 });
 
