@@ -1,16 +1,17 @@
 <script setup>
+  import SeasonView from "@/components/SeasonView.vue";
 </script>
 
 <template>
   <div class='home'>
-    <h1>Vue Boilerplate</h1>
+    <SeasonView />
   </div>
 </template>
 
 <style lang="scss">
 .home {
-  margin-left: 10vw;
-  margin-top: 10vh;
+  margin-left: 2vw;
+  margin-top: 2vh;
   font-size: 4rem;
 }
 </style>

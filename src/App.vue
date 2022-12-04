@@ -1,16 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
-import LogoSVG from "./assets/logo.svg?component";
+import F1Logo from "./assets/f1_logo.svg?component";
 </script>
 
 <template>
   <div class='container-fluid'>
     <div class='row'>
+      <div class='header-img'>
+        <RouterLink to="/">
+          <F1Logo alt="Formula 1 logo" class="logo"/>
+        </RouterLink>
+        </div>
       <nav>
           <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
-          <RouterLink to="/reference">Reference</RouterLink>
+          <RouterLink to="/events">Events</RouterLink>
+          <RouterLink to="/drivers">Drivers</RouterLink>
+          <RouterLink to="/teams">Teams</RouterLink>
       </nav>
     </div>
     <div class='row'>
@@ -18,50 +23,27 @@ import LogoSVG from "./assets/logo.svg?component";
         <RouterView />
       </div>
     </div>
-    <div class='row'>
-      <div class='footer'>
-        <div class='footer-message'>
-          <HelloWorld msg="You did it!" />
-        </div>
-        <div class='footer-img'>
-          <LogoSVG alt="Vite logo" class="logo" />
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
 <style scoped>
-.footer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
-}
 
-.footer-message {
-  margin-top: 3vh;
-  width: 100%;
-  margin-bottom: 2vh;
-}
-
-.footer-img {
+.header-img {
   max-height: 50vh;
+  margin-top: 5vh;
   width: 100px;
 }
 
 .wrapper {
-    margin: 2vh;
+    margin: 1vh;
   }
 
 nav {
   display: block;
   font-size: 1rem;
   text-align: center;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
   max-height: 1vh;
 }
 
@@ -84,7 +66,7 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
-  .footer {
+  .header {
     margin: 1vh;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -92,21 +74,21 @@ nav a:first-of-type {
     width: 100%;
   }
 
-  .footer-message {
+  .header-message {
     margin: 1vh;
     padding: 1vh;
     width: auto;
   }
 
-  .footer-img {
+  .header-img {
     margin: 1vh;
     padding: 1vh;
     width: 100px;
   }
 
   .wrapper {
-    margin: 2vh;
-    padding: 3vh;
+    margin: 1vh;
+    padding: 1vh;
     min-height: 60vh;
   }
 
