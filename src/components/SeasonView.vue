@@ -89,7 +89,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 </script>
 
 <template>
-  <canvas id='chart' width="800" height="400"></canvas>
+  <canvas id='chart' width="900" height="400"></canvas>
 </template>
 
 <style scoped>

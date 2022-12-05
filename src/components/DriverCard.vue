@@ -10,6 +10,14 @@ defineProps({
 <template>
   <td>{{driverData.number}}</td>
   <td>{{driverData.first_name}} {{driverData.last_name}}</td>
+  <td>{{driverData.team_code}}</td>
+  <td>{{driverData.country_code}}</td>
+  <td>{{driverData.penalty_points}}</td>
+  <td>{{driverData.pole_positions}}</td>
+  <td>{{driverData.fastest_laps}}</td>
+  <td>{{driverData.dnfs}}</td>
+  <td>{{driverData.podiums}}</td>
+  <td>{{driverData.wins}}</td>
   <td>{{driverData.wdc_points}}</td>
 </template>
 

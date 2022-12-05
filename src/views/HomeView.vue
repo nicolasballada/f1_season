@@ -1,10 +1,10 @@
 <script setup>
-  import SeasonView from "@/components/SeasonView.vue";
+  import Chart from "@/assets/chart.png";
 </script>
 
 <template>
   <div class='home'>
-    <SeasonView />
+    <img :src="Chart"/>
   </div>
 </template>
 
