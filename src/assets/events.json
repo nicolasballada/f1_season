@@ -201,7 +201,7 @@
     ]
   },
   {
-    "name": "Emilia Romagna della Made in Italy Grand Prix",
+    "name": "Emilia Romagna Grand Prix",
     "city": "Imola",
     "country": "San Marino",
     "track": "Autodromo Enzo e Dino Ferrari",
@@ -386,7 +386,7 @@
     ]
   },
   {
-    "name": "Bwitish Grand Prix",
+    "name": "British Grand Prix",
     "city": "Towcester",
     "country": "England",
     "track": "Silverstone",
@@ -793,7 +793,7 @@
     ]
   },
   {
-    "name": "Waste of Time Grand Prix",
+    "name": "Vegas Grand Prix",
     "city": "Paradise",
     "country": "United States",
     "track": "Las Vegas Strip",
